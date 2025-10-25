@@ -1,5 +1,5 @@
 {
-  "name": "WhatsApp Message Generator",
-  "description": "An AI-powered assistant to help you craft the perfect WhatsApp message for any scenario, tone, and length. Simply provide your requirements, and let the AI generate a clear, concise, and natural-sounding message complete with appropriate emojis.",
+  "name": "KoshurConvo",
+  "description": "KoshurConvo is your AI-powered assistant for crafting the perfect WhatsApp message. It adapts to any scenario, tone, and language, incorporating cultural nuances, idioms, and local slang to make your messages feel truly authentic. Generate personalized messages in English, Kashmiri, Hinglish, Urdu, and many other world languages.",
   "requestFramePermissions": []
 }

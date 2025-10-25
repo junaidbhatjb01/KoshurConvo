@@ -1,4 +1,3 @@
-
 import { GoogleGenAI, Type } from "@google/genai";
 import { Tone, Length, Language, Formality } from '../types';
 
@@ -35,7 +34,8 @@ export const generateWhatsAppMessage = async ({
     2.  **Emojis:** Intelligently add relevant emojis that fit the specified tone and context.
     3.  **Variations:** Provide 3 different versions of the message, each with a slightly different phrasing or style.
     4.  **Personalization:** If a recipient's name is provided, incorporate it naturally. Use placeholders like [Event] or [Time] where appropriate.
-    5.  **Output Format:** Your entire output must be a single JSON object with a key "messages" containing an array of the 3 generated message strings.
+    5.  **Localization & Cultural Nuance:** Adapt the message to the specified language. Use appropriate local idioms, cultural references, and even regional slang to make it feel authentic and personal. For mixed languages like 'Hinglish' or 'Kashmiri (Mixed)', blend the languages naturally, just as a native speaker would in a casual conversation.
+    6.  **Output Format:** Your entire output must be a single JSON object with a key "messages" containing an array of the 3 generated message strings.
 
     ---
 

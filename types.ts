@@ -1,4 +1,3 @@
-
 export enum Tone {
   Friendly = 'Friendly',
   Formal = 'Formal',
@@ -37,6 +36,7 @@ export enum Language {
   Italian = 'Italian',
   Japanese = 'Japanese',
   Kashmiri = 'Kashmiri',
+  KashmiriMixed = 'Kashmiri (Mixed)',
   Korean = 'Korean',
   Mandarin = 'Mandarin (Simplified)',
   Norwegian = 'Norwegian',
